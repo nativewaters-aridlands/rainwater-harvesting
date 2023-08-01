@@ -11,8 +11,8 @@ library(tidyr)
 library(lubridate)
 
 # Read in PRISM Climate Group Dataset that was downloaded from the PRISM website for the desired area and timeframe
-# Set dataset as variable and use skip t0 remove the first 10 lines of metadata from the dataset
-raw_data <- read_csv("2023_prism_climate data_Peach_Springs_AZ.csv", skip = 10)
+# Set dataset as variable and use skip to remove the first 10 lines of metadata from the dataset
+raw_data <- read_csv("data-raw/2023_prism_Peach_Springs_AZ.csv", skip = 10)
 
 # Separate the Date into 2 columns for year and month
 raw_data <- raw_data %>% separate(Date, c("Year", "Month"))
@@ -76,4 +76,4 @@ wet_data <- rwh_data %>%
 aquacrop_data <- rbind(normal_data, dry_data, wet_data)
 
 # Export to CSV for easier visualization if desired
-write_csv(aquacrop_data, file = "aquacrop_data.csv")
+write_csv(aquacrop_data, file = "data-derived/Peach_Springs_AZ_aquacrop.csv")
