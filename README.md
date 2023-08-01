@@ -1,9 +1,9 @@
 # rainwater-harvesting
-  
-  <!-- badges: start -->
-  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8205896.svg)](https://doi.org/10.5281/zenodo.8205896)
-  [![Launch binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nativewaters-aridlands/rainwater-harvesting/main)
-  <!-- badges: end -->
+
+<!-- badges: start -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8205896.svg)](https://doi.org/10.5281/zenodo.8205896)
+[![Launch binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nativewaters-aridlands/rainwater-harvesting/main)
+<!-- badges: end -->
 
 This repository contains code supporting the report, [Feasibility of Rainwater Harvesting in Arid Environments](https://native-climate.com/wp-content/uploads/2023/07/RWH-Project-Report-.pdf), by Brianda Hernandez Rosales, published in collaboration with the [Native Waters on Arid Lands](https://nativewaters-aridlands.com) project. The report is based on Bri's 2022 masters thesis in hydrogeology, [Feasibility and Implementation Plan for Rainwater Harvesting in Peach Springs, AZ on the Hualapai Indian Reservation](https://nativewaters-aridlands.com/wp-content/uploads/2022/08/HernandezRosales_unr_0139M_13750.pdf).
 
